@@ -1,0 +1,21 @@
+.navigate
+{
+    /* border: 1px solid red; */
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+
+}
+
+.navigate .navlink
+{
+    color:gray;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.selected
+{
+    border-bottom: 2px solid orangered;
+}

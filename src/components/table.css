@@ -1,0 +1,45 @@
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 90%;
+    border: 1px solid #ECECEC;
+
+  }
+  
+  th {
+    padding: 5px;
+    border: 1px solid #ECECEC;
+    font-size: 14px;
+    text-align: center;
+    color: gray;
+  }
+
+  td {
+    padding: 5px;
+    border: 1px solid #ECECEC;
+    font-size: 14px;
+    text-align: center;
+    color: black;
+  }
+  
+  tr:nth-child(even){background-color: #F7F7F7}
+
+  .t-container
+  {
+      display: flex;
+      justify-content: center;
+      /* align-items: center; */
+  }
+  
+
+  .search-box
+  {
+      display: flex;
+      justify-content: center;
+  }
+
+  .input-search
+  {
+      padding: 5px;
+      letter-spacing: 0.5px;
+  }
